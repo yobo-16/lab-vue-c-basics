@@ -58,7 +58,7 @@ You have to create a `navbar` component and a `footer` component, that you'll in
 Right now, you don't need to worry about styling these components; just make sure they're working and you're free to advance to the next task.
 
 
-### Iteration 2 | Display the result of a Javascript operation in a component's HTML
+### Iteration 2 | Display the result of a JavaScript operation in a component's HTML
 
 Yesterday you practiced showing a `string` inside a Vue component's template using mustache syntax (`{{}}`). Today, we've seen that strings are not the only things you can insert on your HTML using this technique.
 
