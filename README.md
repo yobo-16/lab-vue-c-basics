@@ -62,7 +62,7 @@ Right now, you don't need to worry about styling these components; just make sur
 
 ### Iteration 2 | Display the result of a JavaScript operation in a component's HTML
 
-Yesterday you practiced showing a `string` inside a Vue component's template using mustache syntax (`{{}}`). Today, we've seen that strings are not the only things you can insert on your HTML using this technique.
+You've already practiced showing a `string` inside a Vue component's template using mustache syntax (`{{}}`). You've also seen that strings are not the only things you can insert on your HTML using this technique.
 
 This challenge has two parts:
 
