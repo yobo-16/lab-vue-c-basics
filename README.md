@@ -19,7 +19,9 @@ Let's begin!
 ## Setup
 
 - Fork this repo
+
 - Clone this repo
+
 - Open the LAB and start:
 
   ```bash
@@ -53,15 +55,14 @@ For this lab, you'll have to create a new Vue project in a new folder. You can c
 
 One of the main advantages of Vue (or any other frontend framework) is how easy it is to reuse components all over your application. This is exactly what we'll practice right now.
 
-You have to create a `navbar` component and a `footer` component, that you'll include in all your app's inner pages. <br>
-**Hint**: if you import them in your App.vue component, all your inner pages will display them too.
+You have to create a `navbar` component and a `footer` component, that you'll include in all your app's inner pages. Hint: if you import them in your App.vue component, all your inner pages will display them too.
 
 Right now, you don't need to worry about styling these components; just make sure they're working and you're free to advance to the next task.
 
 
 ### Iteration 2 | Display the result of a JavaScript operation in a component's HTML
 
-You've already practiced showing a `string` inside a Vue component's template using mustache syntax (`{{}}`). You've also seen that strings are not the only things you can insert on your HTML using this technique.
+Yesterday you practiced showing a `string` inside a Vue component's template using mustache syntax (`{{}}`). Today, we've seen that strings are not the only things you can insert on your HTML using this technique.
 
 This challenge has two parts:
 
@@ -78,7 +79,7 @@ We've seen the `v-if` and `v-show` properties in class today; but if you're stuc
 
 ### Iteration 4 | Display a list of elements that are stored inside a component
 
-Remember how hard `for loops` seemed with Vanilla JavaScript? Vue does a lot of the heavy lifting when we're using them, and can allow us to display a list of elements on the screen in a much easier way.
+Remember how hard `for loops` seemed with vanilla JavaScript? Vue does a lot of the heavy lifting when we're using them, and can allow us to display a list of elements on the screen in a much easier way.
 
 In this exercise, you're going to practice how to use the `v-for` directive. The challenge has the following components:
 
@@ -87,14 +88,16 @@ In this exercise, you're going to practice how to use the `v-for` directive. The
 
 Again, if you're stuck here, [you can always refer to the official documentation](https://vuejs.org/guide/essentials/list.html#v-for-with-an-object).
 
-### Bonus: Iteration 5 | Change the background color of an element when pressing a button
+### Iteration 5 | Bonus | Change the background color of an element when pressing a button
 
 Up for a harder challenge? Vue allows us to do pretty "magical" things in a simplified way. In this case, you'll learn how to change a CSS property dynamically using data binding.
 
 We haven't gone very deep into this topic; but here are some tips to point you in the right direction:
 
 - You'll need to create either a class or a CSS property and [bind it](https://v1.vuejs.org/guide/syntax.html) to a condition.
-- You'll have to create a method that changes the class or the property and trigger it via a button click. We practiced that in yesterday's lab, so feel free to refer to it if you need any help.
+- You'll have to create a method that changes the class or the property and trigger it via a button click. This isn't something we've covered yet, but try using online resources to work out how to do it. Here are some links to help point you in the right direction:
+  - [Vue.js - Class and style binding](https://vuejs.org/guide/essentials/class-and-style.html)
+  - [Stack Overflow](https://stackoverflow.com/questions/59354679/add-background-color-when-click-a-button-vue-js)
 
 Sounds good? Let's get started!
 
