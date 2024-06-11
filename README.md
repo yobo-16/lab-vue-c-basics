@@ -25,7 +25,7 @@ Let's begin!
 - Open the LAB and start:
 
   ```bash
-  $ cd lab-vue-basics
+  $ cd lab-vue-c-basics
   ```
 
 
