@@ -26,8 +26,6 @@ Let's begin!
 
   ```bash
   $ cd lab-vue-basics
-  $ npm install
-  $ npm run dev
   ```
 
 
